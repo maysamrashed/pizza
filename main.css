@@ -1,0 +1,15 @@
+.pizza{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.type-of-pizza{
+    width: calc((100% - 40px) / 3);
+}
+.type-of-pizza h2{
+    font-size:20px;
+}
+.type-of-pizza img{
+    width: 50%;
+    height: 50%;
+}
